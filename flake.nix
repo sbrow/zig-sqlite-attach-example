@@ -77,6 +77,7 @@
 
           devShells.default = pkgs.mkShell {
             buildInputs = with pkgs; [
+              sqlite
               zig
             ];
           };
